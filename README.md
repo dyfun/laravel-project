@@ -82,6 +82,7 @@ Proje Postman dökümanı ve koleksiyonu proje dosyası içerisinde yer almaktad
     ```
     sudo ln -s /etc/nginx/sites-available/task-project /etc/nginx/sites-enabled/
     sudo nginx -t
+    sudo systemctl restart nginx
     ```
 ### 2.2. Uygulamayı Yükleyin
 - Uygulama dosyalarını __"/var/www/task-project"__ dizinine kopyalayın ve yeni .env dosyası oluşturup gerekli ayarları girin.
